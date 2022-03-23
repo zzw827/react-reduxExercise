@@ -1,9 +1,7 @@
 import React from "react";
 
 import { Button } from "antd";
-
-
-import  Header from'../../components/Header'
+import  Header from'@components/Header'
 import './style.css'
 
 export default function Index() {
