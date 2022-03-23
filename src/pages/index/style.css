@@ -1,0 +1,66 @@
+
+.headbox{
+    height: 64px;
+}
+
+.logo{
+    background:  url('https://www.imooc.com/static/img/index/logo2020.png');
+    width: 91px;
+    height: 40px;
+    background-size: 100%;
+    margin-right: 16px;
+}
+
+.content-box{
+    width: 1220px;
+    margin: 0 auto;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.account-area{
+    height: 267px;
+    border: 1px solid red;
+}
+.index-banner-area{
+    margin-top: 22px;
+    height: 148px;
+    border: 1px solid red;
+}
+.product-news-area{
+    margin-top: 22px;
+    height: 450px;
+    border: 1px solid red;
+}
+
+.left-content{
+    width: 909px;
+}
+
+.right-content{
+    width: 288px;
+    
+   
+}
+
+.foot-box {
+    width: 100%;
+    border: 1px solid red
+}
+
+
+.chart-area{
+    border: 1px solid red;
+    height: 437px;
+}
+.promotion-area{
+    border: 1px solid red;
+    margin-top: 22px;
+    height: 100px;
+}
+.product-area{
+    border: 1px solid red;
+    margin-top: 22px;
+    height: 345px;
+}

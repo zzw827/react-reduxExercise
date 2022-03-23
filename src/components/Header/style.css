@@ -1,0 +1,14 @@
+
+
+.header-component-box{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
