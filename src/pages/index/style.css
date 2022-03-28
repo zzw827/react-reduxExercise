@@ -22,17 +22,14 @@
 }
 .account-area{
     height: 267px;
-    border: 1px solid red;
 }
 .index-banner-area{
     margin-top: 22px;
     height: 148px;
-    border: 1px solid red;
 }
 .product-news-area{
     margin-top: 22px;
     height: 450px;
-    border: 1px solid red;
 }
 
 .left-content{
@@ -47,21 +44,16 @@
 
 .foot-box {
     width: 100%;
-    border: 1px solid red
 }
 
 
 .chart-area{
-    border: 1px solid red;
     height: 437px;
 }
 .promotion-area{
-    border: 1px solid red;
     margin-top: 22px;
-    height: 100px;
 }
 .product-area{
-    border: 1px solid red;
     margin-top: 22px;
     height: 345px;
 }

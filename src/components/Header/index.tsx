@@ -13,7 +13,7 @@ export default function Header() {
         <div className="logo"></div>
         <div className="menu">
           {MENU_INDEX_CONFIG.map((menuItem, index) => (
-            <MenuItem menuItemInfo={menuItem} isActive={menuItem.isActive} />
+            <MenuItem  key={`menuItem${index.toString()}`} menuItemInfo={menuItem} isActive={menuItem.isActive} />
           ))}
         </div>
       </div>

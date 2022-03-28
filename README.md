@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React For Redux Mbox Exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+本项目用于练习 Redux 和 Mbox with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

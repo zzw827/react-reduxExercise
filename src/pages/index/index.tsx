@@ -1,7 +1,13 @@
 import React from "react";
-
 import { Button } from "antd";
 import  Header from'@components/Header'
+
+import DataTrend  from './components/DataTrend'
+import PromotionCard  from './components/PromotionCard'
+import ProductCard  from './components/ProductCard'
+import Account  from './components/Account'
+import Carousel  from './components/IndexBanner'
+import ProductNews  from './components/ProductNews'
 import './style.css'
 
 export default function Index() {
@@ -12,14 +18,16 @@ export default function Index() {
       </div>
       <div className="content-box">
         <div className="left-content">
-          <div className="chart-area">chart</div>
-          <div className="promotion-area">promotion</div>
-          <div className="product-area">product</div>
+          <div className="chart-area">
+            <DataTrend/>
+          </div>
+          <div className="promotion-area"><PromotionCard/></div>
+          <div className="product-area"><ProductCard/></div>
         </div>
         <div className="right-content">
-          <div className="account-area">account-area</div>
-          <div className="index-banner-area">index-banner</div>
-          <div className="product-news-area">product news</div>
+          <div className="account-area"><Account/></div>
+          <div className="index-banner-area"><Carousel/></div>
+          <div className="product-news-area"><ProductNews/></div>
         </div>
       </div>
       <div className="foot-box">3</div>
