@@ -4,7 +4,16 @@
 
 ## Available Scripts
 
-In the project directory, you can run:
+React中的状态如何进行管理的呢？
+
+1.组件内部私有状态  2.通过 Mobx redux 这种 进行共享state
+
+使用 redux Mbox 这种东西  主要是 实现数据共享 以及 (对共享数据的规范处理)
+
+
+不使用Context的时候 那么就每层传递props 一层一层传递下去
+
+使用Context的时候就可以直接再第一层 声明 然后每层都可以使用
 
 ### `yarn start`
 

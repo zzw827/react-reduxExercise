@@ -5,15 +5,17 @@ interface IProps {
   isActive?: boolean;
   onClick?: (url: string) => void;
   menuItemInfo: MenuItemInfoType;
+  handleIsActive?:any
 }
 export default class MenuItem extends React.Component<IProps> {
   // 点击子菜单的click
   handleMenuClick = (url: string) => {
-    const { onClick } = this.props;
+    const { onClick, handleIsActive } = this.props;
 
     //   如果你配置了onClick属性则调用这个url
     if (onClick) {
       onClick(url);
+      handleIsActive();
     }
   };
 

@@ -3,6 +3,7 @@ import { HashRouter as Router, withRouter } from "react-router-dom";
 import { renderRoutes } from "react-router-config";
 import IndexPage from "../pages/index";
 import LoginPage from "../pages/login";
+import SearchPage from "../pages/searchPromotion";
 import { Component } from "react";
 import App from "../App";
 const allRoutes = [
@@ -16,6 +17,12 @@ const allRoutes = [
     path: "/login",
     exact: false,
     component: LoginPage,
+    title: "",
+  },
+  {
+    path: "/searchPromotion",
+    exact: false,
+    component: SearchPage,
     title: "",
   },
 ];
